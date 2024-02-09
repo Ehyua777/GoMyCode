@@ -4,10 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon portfolio</title>
 </head>
 
 <body>
+
+    <header>
+        <!------Afichage du logo et le slogant du site------->
+        <div>
+            <h1>Marcel Ehyua</h1>
+            <h2>Developpeur éco-responsable</h2>
+        </div>
+        <nav>
+            <center>
+                <a href="index.html">Accueil</a> - <a href="#about">A propos</a> - <a href="#work">Travail</a> - <a
+                    href="#cv">CV</a> - <a href="#contact">Contact</a>
+            </center>
+        </nav>
+    </header>
+    <main>
+        <section id="about"></section>
+        <!--section travail-->
+        <section id="work">
+            <!--vidéo youtube-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7hoIoBWs_-E?si=pVDMQFo3iCrSilTN"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <br>
+            <!--fin vidéeo youtube-->
+            <hr>
+            <!--Fichier audio-->
+            <audio controls src="Vocal 076.3ga">
+            </audio>
+            <!--fin du fichier audio-->
+            <hr>
+        </section>
+        <!--fin de la section travail-->
+        <section id="cv"></section>
+        <!------section qio contient le formulaire de contact-->
+        <section id="contact">
+            <form>
+                <input type="text" placeholder="Nom et prenom"><br>
+                <input type="email" placeholder="Votre adresse email"><br>
+                <input type="text" placeholder="Objet de votre message"><br>
+                <textarea name="message" id="" cols="30" rows="10"
+                    placeholder="Dite nous le cpntenu de votre message"></textarea><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <!--fin de la section contact-->
+    </main>
+    <footer>
+        <center>Copyright @Marcel Ehyua 2024</center>
+    </footer>
 
 </body>
 
